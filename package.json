@@ -1,0 +1,15 @@
+{
+  "name": "ltc-webhook-server",
+  "version": "1.0.0",
+  "description": "NowPayments LTC Webhook Server for Discord Bot",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.0",
+    "axios": "^1.6.0"
+  }
+}
